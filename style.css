@@ -1,0 +1,146 @@
+/* header{
+    background-image: url('https://stabraq.com/cdn/shop/files/Artboard_10.gif?v=1700060077');
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    height: auto;
+    padding: 10px 0;
+    background-color: #bf1010;
+}
+
+.nav-main {
+    display: flex;
+    padding: 20px 50px;
+    /* justify-content: space-between; */
+    justify-content:space-between;
+
+}
+
+ul.categories,
+ul.icons {
+    list-style: none;
+    display: flex;
+}
+
+.logo {
+    align-items: center;
+    justify-content: left;
+    padding: 0 100px 0;
+}
+
+.categories {
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 100px 0;
+    /* text-decoration:line-through;
+    color: black; */
+}
+
+.icons {
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+    padding: 0 100px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+
+}
+
+li a:hover {
+    /* text-decoration: underline; */
+    border-bottom: .1px solid black;
+
+}
+
+footer {
+    background-color: #F8F8F8;
+    /* height: 10vh; */
+padding:75px 20px 20px 20px ;
+    /* width: 2vw; */
+    display: flex;
+    gap: 300px;
+    
+}
+ .allrightserved{
+    background-color: #F8F8F8;
+}
+ .colum1{
+    
+    flex-direction: column; 
+   
+    justify-content: space-between;
+    
+} 
+.colum2{
+    flex-direction: column;
+    
+
+}
+.colum3{
+    flex-direction: column;
+    
+
+}
+.colum4{
+    padding-right: 100px;
+    
+}
+.shop{
+    display: block;
+}
+.colum2 a{
+    text-decoration:none;
+    color: black;
+   
+}
+.payment{
+    display: flex;
+    list-style:none ;
+    gap: 15px;
+}
+.colum2 a:hover{
+    text-decoration: underline;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0; 
+    list-style: none;
+}
+
+.social-icons li {
+    margin-right: 10px;
+}
+
+
+.allrightserved{
+    padding: 100px 0 50px;
+    text-align: center;
+} 
+
+
+
+
+
+
+
+
+ 
